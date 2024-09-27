@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#pause-btn {
+    background-color: #dc3545;
+    color: white;
+    display: none;
+}
+
+#next-btn, #prev-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.progress-container {
+    margin-top: 10px;
+}
+
+#progress-bar {
+    width: 100%;
+}
+
+.volume-container {
+    margin-top: 10px;
+}
+
+.time-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
